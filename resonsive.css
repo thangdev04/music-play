@@ -1,0 +1,131 @@
+
+/* Đặt lại các phần tử để chúng dễ dàng quản lý */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Cấu trúc chung của trình phát nhạc */
+.music-player {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #121212;
+    color: white;
+    padding: 20px;
+}
+
+/* Đảm bảo kích thước của các phần tử thích ứng với màn hình */
+.container {
+    width: 100%;
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+/* Hiển thị danh sách bài hát */
+.show-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 15px;
+    margin-top: 20px;
+}
+
+.song {
+    width: 100%;
+    max-width: 200px;
+    text-align: center;
+    background-color: #333;
+    border-radius: 10px;
+    overflow: hidden;
+    cursor: pointer;
+    transition: transform 0.3s;
+}
+
+.song:hover {
+    transform: scale(1.05);
+}
+
+.song .picture-music {
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-position: center;
+    padding-top: 100%;
+}
+
+.song .name, .song .namesinger {
+    font-size: 14px;
+    margin: 10px 0;
+}
+
+.song .option {
+    padding: 10px;
+    color: white;
+}
+
+/* Responsive cho màn hình nhỏ */
+@media screen and (max-width: 768px) {
+    .control-buttons {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .song {
+        max-width: 45%;
+    }
+
+    .song .name, .song .namesinger {
+        font-size: 12px;
+    }
+
+    .container {
+        padding: 15px;
+    }
+}
+
+/* Responsive cho màn hình điện thoại */
+@media screen and (max-width: 480px) {
+    .song {
+        max-width: 90%;
+    }
+
+    .song .name, .song .namesinger {
+        font-size: 12px;
+    }
+
+    .control-buttons button {
+        font-size: 25px;
+    }
+}
+
+/* Responsive cho điện thoại với màn hình nhỏ hơn (320px, phổ biến với iPhone SE và các điện thoại cũ) */
+@media screen and (max-width: 320px) {
+    .song {
+        max-width: 95%;
+    }
+
+    .song .name, .song .namesinger {
+        font-size: 10px;
+    }
+
+    .control-buttons button {
+        font-size: 20px;
+    }
+
+    .container {
+        padding: 10px;
+    }
+}
+
+/* Responsive cho các điện thoại màn hình lớn (iPhone 12 Pro Max, Galaxy S20+) */
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+    .song {
+        max-width: 30%;
+    }
+
+    .song .name, .song .namesinger {
+        font-size: 16px;
+    }
+}

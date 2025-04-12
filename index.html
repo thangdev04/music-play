@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="themify-icons/themify-icons.css">
+    <title>Document</title>
+    
+</head>
+<body>
+    <div class="container">
+    <label class="darkmode">
+        <input type="checkbox" id="toggledark">
+        <div class="switch"></div>
+    </label>
+    <div class="day">
+        <div class="sun active"></div>
+    </div>
+    <div class="night">
+        <div class="moon"></div>
+    </div>
+
+    <div class="play-music">
+        <header class="head">
+            <p >Listen Name</p>
+            <h2 class="name-music">Phạm Văn Thắng</h2>
+            <div class="animation-music">
+                <div class="cd"></div>
+                <div class="equalizer">
+                    <div class="bar bar1"></div>
+                    <div class="bar bar2"></div>
+                    <div class="bar bar3"></div>
+                    <div class="bar bar4"></div>
+                </div>
+            </div>
+            <div class="dashboard">
+                <button class="replay"><i class="ti-reload icon"></i></button>
+                <button class="backward"><i class="ti-control-skip-backward icon"></i></button>
+                <button class="pause">
+                    <i class="ti-control-play icon"></i>
+                </button>
+                <button class="forward"><i class="ti-control-skip-forward icon"></i></button>
+                <button class="shuffle"><i class="ti-control-shuffle icon"></i></button>
+            </div>
+            <input type="range" id="progress" class="progress" value="0" step="1" min="0" max="100">
+            <div class="second">00:00 / 00:00</div>
+            <audio id="audio" src=""></audio>
+        </header>
+    </div>
+    <div class="show-list"></div>
+</div>
+    <script src="js.js"></script>
+</body>
+</html>
