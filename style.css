@@ -257,9 +257,6 @@ body{
     font-weight: 100;
 }
 
-
-
-
 .darkmode{
     position: absolute;
     top: 20px;
@@ -275,7 +272,6 @@ body{
     height: 0;
     opacity: 0;
 }
-
 .darkmode .switch{
     position: absolute;
     inset: 0;
