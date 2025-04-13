@@ -328,7 +328,7 @@ body{
 
 .moon {
     position: absolute;
-    top: -40px;
+    top: -20%;
     left: 50%;
     transform: translateX(-50%);
     width: 80px;
@@ -342,7 +342,7 @@ body{
 }
 
 .moon.active {
-    top: 40px;
+    top: 20%;
     opacity: 1;
 }
 
@@ -384,7 +384,7 @@ body{
 .day .sun {
     position: absolute;
     width: 80px;
-    top: 550px;
+    top: 100%;
     left: 50%;
     transform: translateX(-50%);
     height: 80px;
@@ -397,6 +397,6 @@ body{
 }
 
 .sun.active{
-    top: 420px;
+    top: 70%;
     opacity: 1;
 }
