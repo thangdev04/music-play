@@ -145,7 +145,6 @@ body{
     opacity: 0.7;
     color: var(--color)
 }
-
 .dashboard button i:hover{
     opacity: 1;
 }
