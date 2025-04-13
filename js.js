@@ -23,6 +23,7 @@ const root = document.documentElement;
 const moon = document.querySelector('.moon');
 // declare song listlist
 
+
 const listMusic = [
     {
         name: 'chúng ta của tương lai',
