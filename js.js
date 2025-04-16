@@ -29,35 +29,35 @@ const listMusic = [
         name: 'chúng ta của tương lai',
         singer: 'Sơn Tùng MTP',
         path: 'music/y2mate.com - youtube video zoEtcR5EW08.mp3',
-        image: 'image/tải\ xuống.jpg'
+        image: 'image/tải/ xuống.jpg'
     },
 
     {
         name: 'Giá như',
         singer: 'Soobin Hoàng Sơn',
         path: 'music/y2mate.com - GIÁ NHƯ  TÙNG DƯƠNG  SOOBIN HOÀNG SƠN  Liveshow Người Đàn Ông Hát  Giá Như Em Muốn Anh.mp3',
-        image: 'image/tải\ xuống\ \(1\).jpg'
+        image: 'image/tải/ xuống/ /(1/).jpg'
     },
 
     {
         name: 'Tháng tư là lời nói dối của em',
         singer: 'Hà Anh Tuấn',
         path: 'music/y2mate.com - Hà Anh Tuấn  Tháng Tư Là Lời Nói Dối Của Em Official MV.mp3',
-        image: 'image/tải\ xuống\ \(2\).jpg'
+        image: 'image/tải/ xuống/ /(2/).jpg'
     },
 
     {
         name: 'Mang Chủng',
         singer: 'Âm Khuyết Thi Thính',
         path: 'music/y2mate.com - MANG CHỦNG REMIX    Glwk REMIX  Nhạc hot trend tiktok 2024.mp3',
-        image: 'image/tải\ xuống\ \(3\).jpg'
+        image: 'image/tải/ xuống/ /(3/).jpg'
     },
 
     {
         name: 'Yêu 5 - remix',
         singer: 'Rhymastic',
         path:'music/y2mate.com - Lyrics  YÊU 5  Rhymastic.mp3',
-        image: 'image/tải\ xuống\ \(4\).jpg'
+        image: 'image/tải/ xuống/ /(4/).jpg'
 
     },
 
@@ -65,35 +65,35 @@ const listMusic = [
         name: 'Save Me',
         singer: 'Deamn',
         path:'music/y2mate.com - DEAMN  Save Me Audio.mp3',
-        image: 'image/tải\ xuống\ \(5\).jpg'
+        image: 'image/tải/ xuống/ /(5/).jpg'
 
     },
     {
         name: 'Shape of you',
         singer: 'Ed Sheeran',
         path:'music/y2mate.com - Ed Sheeran  Shape of You Official Music Video.mp3',
-        image: 'image/tải\ xuống\ \(6\).jpg'
+        image: 'image/tải/ xuống/ /(6/).jpg'
 
     },
     {
         name: 'happy - Pharrell Williams',
         singer: 'Pharrell Williams',
         path:'music/y2mate.com - Pharrell Williams  Happy Video.mp3',
-        image: 'image/tải\ xuống\ \(7\).jpg'
+        image: 'image/tải/ xuống/ /(7/).jpg'
 
     },
     {
         name: 'Sóng Gió',
         singer: 'J97',
         path:'music/y2mate.com - SÓNG GIÓ  ICM x JACK  OFFICIAL MUSIC VIDEO.mp3',
-        image: 'image/tải\ xuống\ \(8\).jpg'
+        image: 'image/tải/ xuống/ /(8/).jpg'
 
     },
     {
         name: 'Bạc Phận',
         singer: 'J97',
         path:'music/y2mate.com - BẠC PHẬN  ICM x JACK  OFFICIAL MV.mp3',
-        image: 'image/tải\ xuống\ \(8\).jpg'
+        image: 'image/tải/ xuống/ /(8/).jpg'
 
     },
 ];
